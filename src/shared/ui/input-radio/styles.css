@@ -1,0 +1,13 @@
+.input_radio {}
+
+.input_radio__input--hidden {
+    @apply hidden;
+}
+
+.input_radio__label {
+    @apply inline-block w-[24px] h-[24px] rounded-[50%] border border-[2px] border-purple cursor-pointer;
+}
+
+.input_radio__input--hidden:checked + .input_radio__label {
+  @apply border-[6px];
+}
